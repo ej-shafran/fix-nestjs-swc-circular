@@ -1,0 +1,30 @@
+{
+  "name": "fix-nestjs-swc-circular",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./script.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "ej-shafran",
+  "packageManager": "pnpm@10.17.1",
+  "dependencies": {
+    "@effect/cli": "^0.72.1",
+    "@effect/opentelemetry": "^0.59.1",
+    "@effect/platform": "^0.93.6",
+    "@effect/platform-node": "^0.103.0",
+    "@opentelemetry/sdk-logs": "^0.208.0",
+    "@opentelemetry/sdk-metrics": "^2.2.0",
+    "@opentelemetry/sdk-trace-base": "^2.2.0",
+    "@opentelemetry/sdk-trace-node": "^2.2.0",
+    "effect": "^3.19.8"
+  },
+  "devDependencies": {
+    "@effect/language-service": "^0.59.0",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
