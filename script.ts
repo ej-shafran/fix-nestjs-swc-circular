@@ -18,7 +18,7 @@ const FORWARD_REF_REGEX =
 const FORWARD_REF_REPLACEMENT = "$1Relation<$2>,";
 
 const MANY_TO_ONE_REGEX =
-  /(@ManyToOne\(\(\)\s*=>\s*[^,]+,\s*\([^)]+\)\s*=>\s*[^)]+\)\s+(?:@[^(]+\([^)]*\)\s+)*\s+[^:]+:\s*)([^;<>]+);/g;
+  /(@ManyToOne\(\s*\(\)\s*=>\s*[^,]+,\s*\([^)]+\)\s*=>\s*[^)]+\)\s+(?:@[^(]+\([^)]*\)\s+)*\s+[^:]+:\s*)([^;<>]+);/g;
 const MANY_TO_ONE_REPLACEMENT = "$1Relation<$2>;";
 
 const RELATION_IMPORT_REGEX =
